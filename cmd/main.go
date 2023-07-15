@@ -12,7 +12,7 @@ func main() {
 
 	mux := http.NewServeMux()
 
-	mux.HandleFunc("/hola",
+	mux.HandleFunc("/quehondas",
 		func(w http.ResponseWriter, r *http.Request) {
 			enc := json.NewEncoder(w)
 			w.Header().Set("Content-Type", "application/json; charset=utf-8")
