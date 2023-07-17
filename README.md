@@ -9,10 +9,10 @@
 ## Release Milestones
 
 ### V0 (1 day)
-- [ ] Onboarding Documentation
-- [ ] Simple API response (hello world!)
+- [x] Onboarding Documentation
+- [x] Simple API response (hello world!)
 - [ ] Unit tests
-- [ ] Running somewhere other than the dev machine.
+- [x] Running somewhere other than the dev machine.
 
 ### V1 (7 days)
 - [ ] Crear endpoint de la traducción
