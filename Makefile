@@ -23,10 +23,6 @@ upgrade-go:
 build:
 	go build -o api cmd/main.go
 
-
-build:
-	go build -o api cmd/main.go
-
 test:
 	go test ./... -coverprofile=coverage.out
 
