@@ -19,3 +19,7 @@ go.work
 
 # Nombre estandard del ejecutable a creargo mod init github.com/untaldouglas/hola-api 
 api 
+
+# Reportes de cobertura de tareas automaticas de testing
+coverage.out
+cover.xhtml

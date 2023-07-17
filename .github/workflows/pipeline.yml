@@ -16,16 +16,15 @@ jobs:
     - name: Check out code into the Go module directory 
       uses: actions/checkout@v2
     - name: Run Test
-      run: go test ./...
-    #   run: make test 
-    # - name: Coverage Check
-    #   run: make coverage 
-    # - name: Generate Report
-    #   run: make report 
-    # - name: Copy Files 
-    #   run: |
-    #        mkdir  reports
-    #        cp cover.html reports/.
+      run: make test 
+    - name: Coverage Check
+      run: make coverage 
+    - name: Generate Report
+      run: make report 
+    - name: Copy Files 
+      run: |
+           mkdir  reports
+           cp cover.html reports/.
                                                        
   build:
     name: Build App
