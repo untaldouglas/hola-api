@@ -15,7 +15,7 @@ func main() {
 
 	mux.HandleFunc("/translate/hello", rest.TranslateHandler)
 
-	log.Printf("ready & listening on %s\n", addr)
+	log.Printf("ready y listening on %s\n", addr)
 
 	log.Fatal(http.ListenAndServe(addr, mux))
 }
